@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: 'Noto Sans Display', sans-serif;
+    width: 100%;
+    height: 100vh;
+    align-items: left;
+}
+body h1 {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+nav {
+    display: flex; 
+    flex-direction: row;
+    padding-left:24px;
+    padding-right:24px;
+    width: 100%
+}
+
+.cool-title {
+    font-family: 'Poller One', cursive;
+    font-size: 24px
+} 
+
+.main-section {
+    display: flex;
+    flex-direction: row; 
+}
+
+.biggest-title {
+    color:#000000;
+    font-size: 54
+}
+
