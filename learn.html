@@ -6,28 +6,32 @@
     </head>
 
 <body>
-    <h1 class="header">blurt.it</h1>
-    <h2 class="header">learn</h2>
-    <h3 class="header">chat</h3>
-   
-
-    <div>
-        <div style="float: right;">
-            <form action="search.php" method="get">
-            <!-- Use the "search" type attribute to create a search input -->
-                <input type="search" name="search" placeholder="Search...">
-                <input type="submit" value="Search">
+    <div class="learn-header">
+        <h1 class="header">blurt.it</h1>
+        <h2 class="header">learn</h2>
+        <h3 class="header">chat</h3>
+        <div class="search-box">
+            <form onsubmit="translateToSpanish(event)">
+                <input type="text" id="searchInput" name="search" placeholder="Search a word or phrase">
+                <button id="translateButton">Translate</button>
             </form>
-        </div>
+        </div>  
     </div>
+   
+    <link rel="stylesheet" href="searchbox.css">
+    
+    <div id="translationResult" class="translation-result"><a href = "/blurt.html" style = "color: inherit; text-decoration: none;">Result</a></div>
+
+    <script src="searchbox.js"></script>
+    
 
     <br></br>
     <br></br>
 
-    <button class="my-button" style="background-color:#FFB800 ;">Idioms</button>
-    <button class="my-button" style="background-color: #FFB800 ; "> Slang</button>
-    <button class="my-button" style="background-color: #FF7A00 ; "> Culture</button>
-    <button class="my-button" style="background-color: #DE1BB3 ; "> Abbreviations</button>
-    <button class="my-button" style="background-color: #881BDE ; "> Texting</button>
-    <button class="my-button" style="background-color: #5842DD ; "> Memes</button>
+    <button class="my-button" style="background-color:#FFB800 ;"><a href="/idom.html">Idioms</a></button>
+    <button class="my-button" style="background-color: #FFB800 ; "> <a href="/u.html">Slang</a></button>
+    <button class="my-button" style="background-color: #FF7A00 ; "> <a href="/ChC.html">Culture</a></button>
+    <button class="my-button" style="background-color: #DE1BB3 ; "> <a href="/u.html">Abbreviations</a></button>
+    <button class="my-button" style="background-color: #881BDE ; "> <a href="/u.html">Text</a></button>
+    <button class="my-button" style="background-color: #5842DD ; "> <a href="/u.html">Memes</a></button>
 </body>

@@ -1,0 +1,37 @@
+
+
+.search-box {
+    background-color: #FFB80078;
+    /* width: 772px; */
+    /* padding-left: 590px; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#searchInput {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 75%;
+}
+
+#translateButton {
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.translation-result {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
