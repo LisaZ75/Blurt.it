@@ -1,20 +1,33 @@
 <html>
     <head>
-        <title><button style="background-color: transparent;">blurt.it</button></title>
-        <style>
-            body 
-        </style>
-</head>
+        <title>blurt.it</title>
+        
+        <link rel="stylesheet" type="text/css" href="learn.css">
+    </head>
 
-   <span><h1>blurt.it</h1> <h3>learn</h3><h3>chat</h3></span>
+<body>
+    <h1 class="header">blurt.it</h1>
+    <h2 class="header">learn</h2>
+    <h3 class="header">chat</h3>
+   
 
-    <p>Select topic you would like to learn and practice</p>
+    <div>
+        <div style="float: right;">
+            <form action="search.php" method="get">
+            <!-- Use the "search" type attribute to create a search input -->
+                <input type="search" name="search" placeholder="Search...">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </div>
 
-    <button style="width: 200px; height: 200px;background-color:#FFB800 ;">Idioms</button>
     <br></br>
-    <button style="width: 200px; height: 200px;background-color: #FF9900;">Slang</button>
-    <button style="width: 200px; height: 200px; background-color: #FF7A00; ">Culture</button>
-    <button style="width: 200px; height: 200px;background-color: #DE1BB3;">Abbreviations</button>
-    <button style="width: 200px; height: 200px;background-color: #881BDE">Texting</button>
-    <button style="width: 200px; height: 200px;background-color: #5842DD">Memes</button>
-    </body>
+    <br></br>
+
+    <button class="my-button" style="background-color:#FFB800 ;">Idioms</button>
+    <button class="my-button" style="background-color: #FFB800 ; "> Slang</button>
+    <button class="my-button" style="background-color: #FF7A00 ; "> Culture</button>
+    <button class="my-button" style="background-color: #DE1BB3 ; "> Abbreviations</button>
+    <button class="my-button" style="background-color: #881BDE ; "> Texting</button>
+    <button class="my-button" style="background-color: #5842DD ; "> Memes</button>
+</body>
